@@ -1,1 +1,24 @@
-
+{
+  "cli": {
+    "version": ">= 5.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle",
+        "resourceClass": "m4-medium",
+        "node": "20.12.2"
+      },
+      "env": {
+        "NPM_COMMAND": "npm install --legacy-peer-deps --force"
+      }
+    }
+  }
+}
