@@ -1,11 +1,6 @@
 {
   "cli": {
-<<<<<<< HEAD
-    "version": ">= 16.28.0",
-    "appVersionSource": "remote"
-=======
     "version": ">= 5.0.0"
->>>>>>> 93f60ff718d09851c70de8580d736b582bcf97a4
   },
   "build": {
     "development": {
@@ -16,13 +11,6 @@
       "distribution": "internal"
     },
     "production": {
-<<<<<<< HEAD
-      "autoIncrement": true
-    }
-  },
-  "submit": {
-    "production": {}
-=======
       "android": {
         "buildType": "app-bundle",
         "resourceClass": "m4-medium",
@@ -32,6 +20,5 @@
         "NPM_COMMAND": "npm install --legacy-peer-deps --force"
       }
     }
->>>>>>> 93f60ff718d09851c70de8580d736b582bcf97a4
   }
 }
